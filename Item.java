@@ -1,4 +1,4 @@
-public class Items {
+public class Item {
     private int itemNo ;
     private String itemName;
     private int itemRate;
@@ -31,7 +31,7 @@ public class Items {
     }
 
 
-    public Items(){
+    public Item(){
         
     }
 
