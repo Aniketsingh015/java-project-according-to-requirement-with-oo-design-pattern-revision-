@@ -31,8 +31,10 @@ public class Item {
     }
 
 
-    public Item(){
-        
+    public Item(int itemNo,String itemName,int itemRate){
+        this.itemName=itemName;
+        this.itemNo=itemNo;
+        this.itemRate=itemRate;
     }
 
 }
