@@ -1,6 +1,9 @@
+import java.util.*;
 public class Customer {
     private int custName;
     private int custId;
+
+    private List<Order> orders;
 
 
     // gtter and setters for custId
@@ -19,8 +22,15 @@ public class Customer {
         this.custName=custName;
     }
 
+    public List getOrders(){
+        return this.orders;
+    }
+    public void addOrder(Order order){
+        this.addOrder(order);
+    }
+
     // constructor for customer
     public Customer(){
-
+        this.orders=new ArrayList<Order>();
     }
 }
