@@ -22,7 +22,7 @@ public class Customer {
         this.custName=custName;
     }
 
-    public List getOrders(){
+    public List<Order> getOrders(){
         return this.orders;
     }
     public void addOrder(Order order){
