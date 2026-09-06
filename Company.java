@@ -3,6 +3,7 @@ class Company{
     private String name;
 
     private List<Item>items;
+    private List<Customer>customers;
 
 
 
@@ -21,6 +22,13 @@ class Company{
     }
     public void addItem(Item item){
         this.items.add(item);
+    }
+
+     public List<Customer> getCustomer(){
+        return this.customers;
+    }
+    public void addCustomer(Customer customer){
+        this.customers.add(customer);
     }
 
 // constructor for company 
