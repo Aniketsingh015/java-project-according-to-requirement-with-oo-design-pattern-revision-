@@ -20,7 +20,7 @@ class Company{
         return this.items;
     }
     public void addItem(Item item){
-        this.addItem(item);
+        this.items.add(item);
     }
 
 // constructor for company 

@@ -1,6 +1,6 @@
 import java.util.*;
 public class Customer {
-    private int custName;
+    private String custName;
     private int custId;
 
     private List<Order> orders;
@@ -15,10 +15,10 @@ public class Customer {
     }
 
     // getter and setter for name
-    public int getCustName(){
+    public String getCustName(){
         return this.custName;
     }
-    public void setCustName(int custName){
+    public void setCustName(String custName){
         this.custName=custName;
     }
 
@@ -26,7 +26,7 @@ public class Customer {
         return this.orders;
     }
     public void addOrder(Order order){
-        this.addOrder(order);
+        this.orders.add(order);
     }
 
     // constructor for customer
