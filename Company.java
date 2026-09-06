@@ -16,7 +16,7 @@ class Company{
 
 // getter and setter for item
 
-    public List getItems(){
+    public List<Item> getItems(){
         return this.items;
     }
     public void addItem(Item item){
@@ -24,8 +24,8 @@ class Company{
     }
 
 // constructor for company 
-    public Company(String name){
-        this.name=name;
+    public Company(){
+        
         this.items=new ArrayList<Item>();
     }
 }
